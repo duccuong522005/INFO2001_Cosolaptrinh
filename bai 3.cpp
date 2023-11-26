@@ -103,7 +103,7 @@ int main() {
                 printf("Exiting program.\n");
                 return 0;
             default:
-                printf("Invalid options. Please enter a valid options.\n");
+                printf("Invalid choice. Please enter a valid options.\n");
         }
     }
 

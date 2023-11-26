@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define STUDENTS 50 
+#define STUDENTS 100
 
 struct Student {
     int id;
@@ -20,7 +20,7 @@ int main() {
 
     do {
         printf("1. Add Student\n2. Display Students\n3. Sort Students\n4. Search Students\n5. Exit\n");
-        printf("Enter your option: ");
+        printf("Enter your options: ");
         scanf("%d", &options);
 
         switch (options) {
